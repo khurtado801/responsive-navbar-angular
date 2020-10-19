@@ -1,0 +1,19 @@
+<!-- NOTE: Set the disabled property  -->
+<div class="container">
+  <div class="server-wrapper">
+    <label class="server-label">Server Name:</label>
+    <input
+      type="text"
+      class="form-control"
+      (input)="onUpdateServerName($event)">
+      <p>{{ serverName }}</p>
+    <button
+    [disabled]="!allowNewServer"
+    (click)="onCreateServer()" class="btn btn-primary serverCreation-btn">Add Server</button>
+    <!-- NOTE: The line below was removed to practice event binding -->
+    <!-- <p>{{ allowNewServer }}</p> -->
+    <p class="creation-status">{{ serverCreationStatus }}</p>
+    <app-server></app-server>
+    <app-server></app-server>
+  </div>
+</div>

@@ -1,0 +1,30 @@
+<div class="app-wrapper">
+  <div class="navbar-wrapper">
+    <app-navbar></app-navbar>
+  </div>
+  <div class="main" >
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <!-- NOTE: ngModel directive  needed for data binding, it tells Angular to listen for any input -->
+          <hr>
+
+
+          <!-- NOTE: We used the attribute selector notation. In CSS you can select elements by attribute by enclosing that attribute in square brackets. -->
+          <!-- <div app-servers></div> -->
+
+          <!-- NOTE: We used the class notation. In CSS you can select elements by class name by adding a dot before the element name -->
+          <!-- <div class="app-servers"></div> -->
+        </div>
+      </div>
+      <div class="servers-wrapper">
+        <!-- NOTE: Add our new component here by using the selector of 'app'-server' which we defined in 'server.component.ts' -->
+        <app-servers></app-servers>
+      </div>
+    </div>
+  </div>
+</div>
+<ngx-spinner bdColor="rgba(255,255,255,1)" size="medium" color="#033d5b" type="ball-spin-clockwise"></ngx-spinner>
+
+<div style="height: 500px">
+</div>

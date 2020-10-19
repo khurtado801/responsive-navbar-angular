@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/dist/css/bootstrap.css";
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+/* NOTE: Button styles */
+.btn, .btn-primary{
+  -webkit-text-stroke: .5px #000000;
+	text-shadow: -1px 1px 2px #000000,
+				  1px 1px 2px #000000,
+				  1px -1px 0 #000000,
+				  -1px -1px 0 #000000;
+}

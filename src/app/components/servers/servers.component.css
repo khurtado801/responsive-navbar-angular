@@ -1,0 +1,19 @@
+.btn {
+  font-size: 1.60vh;
+  margin: 10px 0 10px 0;
+}
+
+.creation-status, .server-label {
+  font-size: 1.60vh;
+  color: white;
+  -webkit-text-stroke: .5px #000000;
+	text-shadow: -1px 1px 2px #000000,
+				  1px 1px 2px #000000,
+				  1px -1px 0 #000000,
+				  -1px -1px 0 #000000;
+}
+
+.server-label {
+  margin-right: 10px;
+  font-size: 1.60vh;
+}

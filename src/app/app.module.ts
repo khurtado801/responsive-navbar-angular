@@ -28,6 +28,9 @@ import { EducationComponent } from './pages/education/education.component';
 import { ExperienceComponent } from './pages/experience/experience.component';
 import { IntroComponent } from './pages/intro/intro.component';
 import { SkillsComponent } from './pages/skills/skills.component';
+import { PortfolioComponent } from './components/portfolio/portfolio.component';
+import { HomeComponent } from './pages/home/home.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 console.log(`jQuery version: ${$.fn.jquery}`);
 
@@ -45,6 +48,9 @@ console.log(`jQuery version: ${$.fn.jquery}`);
     ExperienceComponent,
     IntroComponent,
     SkillsComponent,
+    PortfolioComponent,
+    HomeComponent,
+    FooterComponent,
   ],
 // NOTE: Imports allows us to add other modules to this module
   imports: [

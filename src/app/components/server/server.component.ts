@@ -13,6 +13,8 @@ export class ServerComponent {
     // NOTE: declare serverStatus string variable and assign it a value of 'offline'
     serverStatus = 'offline';
 
+    // NOTE: Constructor to set server status to random number between 0 and 1
+
     // NOTE: Define method to get server status
     // tslint:disable-next-line:typedef
     getServerStatus() {
